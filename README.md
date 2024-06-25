@@ -1,6 +1,6 @@
-# Morgans CV App
+# ACDS Test
 
-This rest API is a lean implementation of the requirements stated, please kindly consider it
+This app is an incomplete implementation of the requirements stated, please kindly consider it
 
 # Requirements
 

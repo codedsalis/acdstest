@@ -22,7 +22,7 @@ class WeatherService
                     ->create([
                         'date' => $date,
                         'city' => $city,
-                        'data' => $weatherData->forecast
+                    'weather_data' => json_encode($weatherData['forecast'])
                     ]);
 
                 return $weather;

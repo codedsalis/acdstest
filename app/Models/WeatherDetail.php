@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class WeatherDetail extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'date',
+        'city',
+        'weather_data'
+    ];
 }
